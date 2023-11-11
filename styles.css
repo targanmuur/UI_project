@@ -19,26 +19,192 @@ body, html {
 
 .topBox {
   position: absolute;
-  top: 0px; /* Adjust the top position as needed */
-  left: 384px; /* Adjust the left position as needed */
-  width: 768px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
-  background-color: #1fc9f0; /* Set your desired blue color */
+  top: 0px; /* top position */
+  left: 384px; /* left position */
+  width: 768px;
+  height: 100px;
+  background-color: #1fc9f0;
 }
 
-.content h1 {
+.topTitle {
   position: absolute;
   font-size: 30px;
-  top: 10px; /* Adjust the top position as needed */
-  left: 500px; /* Adjust the left position as needed */
+  top: 10px;
+  left: 500px;
   color: white;
   }
-
 
 .fa-bluetooth {
   position: absolute;
   transform: scale(2);
-  top: 40px; /* Adjust the top position as needed */
-  left: 590px; /* Adjust the left position as needed */
+  top: 40px;
+  left: 590px;
   color: white;
 }
+
+.title {
+  position: absolute;
+  font-size: 24px;
+  top: 100px;
+  left: 650px;
+  color: black;
+}
+
+.groupTitle1{
+  position: absolute;
+  font-size: 22px;
+  top: 150px;
+  left: 400px;
+  color: black;
+}
+
+.bedroomLine {
+  position: absolute;
+  width: 768px;
+  height: 3px;
+  background-color: black;
+  top: 190px;
+  left: 384px;
+}
+
+.groupTitle2{
+  position: absolute;
+  font-size: 22px;
+  top: 260px;
+  left: 400px;
+  color: black;
+}
+
+.ungroupedLine {
+  position: absolute;
+  width: 768px;
+  height: 3px;
+  background-color: black;
+  top: 300px;
+  left: 384px;
+}
+
+.groupTitle3{
+  position: absolute;
+  font-size: 22px;
+  top: 460px;
+  left: 400px;
+  color: black;
+}
+
+.frLine {
+  position: absolute;
+  width: 768px;
+  height: 3px;
+  background-color: black;
+  top: 500px;
+  left: 384px;
+}
+
+.frTxt {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  top: 520px;
+  left: 660px;
+}
+
+.groupTitle4{
+  position: absolute;
+  font-size: 22px;
+  top: 570px;
+  left: 420px;
+  color: black;
+}
+
+.agLine {
+  position: absolute;
+  width: 768px;
+  height: 3px;
+  background-color: black;
+  top: 610px;
+  left: 384px;
+}
+
+
+.button1 {
+  position: absolute;
+  background-color: #1fc9f0;
+  color: white;
+  top: 200px;
+  left: 540px;
+  width: 400px;
+  height: 50px
+}
+
+.button2 {
+  position: absolute;
+  background-color: #1fc9f0;
+  color: white;
+  top: 310px;
+  left: 540px;
+  width: 400px;
+  height: 50px
+}
+
+.button3 {
+  position: absolute;
+  background-color: #1fc9f0;
+  color: white;
+  top: 400px;
+  left: 540px;
+  width: 400px;
+  height: 50px
+}
+
+.roundedButton {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.addButton {
+  position: absolute;
+  top: 575px;
+  left: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: #ccc;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.bottomButton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  bottom: 0;
+  left: 384px;
+  width: 768px;
+  height: 100px;
+  background-color: #1fc9f0;
+}
+
+.bottomButtonText {
+  font-size: 30px;
+  color: white;
+}
+
+
