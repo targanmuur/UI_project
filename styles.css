@@ -2,13 +2,13 @@ body, html {
     height: 100%;
     margin: 0;
   }
-  
+
   .container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; /* Three columns, with the middle column being twice the size of the side columns */
     height: 100vh;
   }
-  
+
   .content {
     background-color: #f0f0f0; /* Set your desired background color */
     grid-column: 2; /* Place the content div in the middle column */
@@ -16,3 +16,29 @@ body, html {
     justify-content: center;
     align-items: center;
   }
+
+.topBox {
+  position: absolute;
+  top: 0px; /* Adjust the top position as needed */
+  left: 384px; /* Adjust the left position as needed */
+  width: 768px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-color: #1fc9f0; /* Set your desired blue color */
+}
+
+.content h1 {
+  position: absolute;
+  font-size: 30px;
+  top: 10px; /* Adjust the top position as needed */
+  left: 500px; /* Adjust the left position as needed */
+  color: white;
+  }
+
+
+.fa-bluetooth {
+  position: absolute;
+  transform: scale(2);
+  top: 40px; /* Adjust the top position as needed */
+  left: 590px; /* Adjust the left position as needed */
+  color: white;
+}
